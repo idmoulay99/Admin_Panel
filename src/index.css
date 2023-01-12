@@ -5,31 +5,3 @@ body{
     margin: 0;
     padding: 0;   
 }
-
-.todos_container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-}
-.todo_list{
-    width: 80%;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-}
-.todo_list form {
-    width: fit-content;
-}
-form input {
-    width: 100%;
-    padding : 9px;
-    border-radius: 9px;
-    outline-style: none;
-    border: 2px solid rgb(66, 63, 63,0.4);
-    box-shadow: 2px 3px 3px rgba(46, 45, 45,0.3);
-    font-size: 1.1rem;
-    font-weight: 500;
-    color: rgb(65, 63, 63);
-}
