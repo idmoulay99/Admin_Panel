@@ -1,11 +1,14 @@
-import TodoList from "./components/ToDo/ToDoList";
-
+import './App.css';
+import Users from './components/User.js'
+import Albums from './components/Album/Albums';
 
 function App() {
- const Tasks = [{title :"Create react project",}]
+  const photo='https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+
   return (
     <div>
-      <TodoList Items={Tasks}/>
+      <Users photo={photo} />
+      <Albums />
     </div>
   );
 }
