@@ -1,9 +1,12 @@
-import './App.css';
+import TodoList from "./components/ToDo/ToDoList";
+
 
 function App() {
-
+ const Tasks = [{title :"Create react project",}]
   return (
-    <div>Hello</div>
+    <div>
+      <TodoList Items={Tasks}/>
+    </div>
   );
 }
 
